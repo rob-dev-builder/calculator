@@ -1,0 +1,25 @@
+1. get string value from display input
+
+2. Listen out for number buttons being pressed
+    If number is pressed then add it to display input
+
+3. Listen out for operator numbers being pressed
+    If operator button is pressed then call 'checkForOperator' function
+
+      checkForOperator Function:
+          Split the input string into characters
+          Check through each character and if an operator is detected call the 'calculate' function
+
+              calculate Function:
+                Split the input string into characters
+                Check through each character and call the 'prep' function for the relavant operator detected.
+
+                    prep Function:
+                       Split the input string by the relevant operator charactor
+
+
+    After CheckForOperator function has run then add operator to input box
+
+
+Note:
+I could create a function that splits the input string by all the types of operators. Then it could return the operator array that has a length greater than 1.

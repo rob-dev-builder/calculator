@@ -1,0 +1,19 @@
+body {
+  background-color: #0f0b49;
+}
+
+.calcbtn {
+min-width: 100%;
+min-height: 45px;
+margin: 3px;
+
+}
+
+.calcdisplay {
+  max-width: 100%;
+  min-height: 50px;
+  margin-top: 200px;
+  margin-bottom: 9px;
+  margin-left: 2.5px;
+  font-size: 30px;
+}
